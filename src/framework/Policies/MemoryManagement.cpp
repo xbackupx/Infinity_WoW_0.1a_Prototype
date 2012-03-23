@@ -19,6 +19,21 @@
 //lets use Intel scalable_allocator by default and
 //switch to OS specific allocator only when _STANDARD_MALLOC is defined
 
+
+///-> if alloc crashes start happening uncomment  block comment out below
+
+/*#ifdef WIN32
+#define USE_STANDARD_MALLOC
+#endif
+
+#ifdef WIN64
+#define USE_STANDARD_MALLOC
+#endif
+*/
+
+/// -> read above
+
+
 #ifndef USE_STANDARD_MALLOC
 #include <stdexcept>
 #include "Platform/Define.h"

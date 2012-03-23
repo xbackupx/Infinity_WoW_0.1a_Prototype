@@ -69,15 +69,15 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="mangosd.lib ACEd.lib"
-				OutputFile="$(OutDir)/mangosscriptR2.dll"
+				OutputFile="$(OutDir)/InfinityScript.dll"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories="..\..\..\..\win\VC90\mangosd__Win32_Debug;..\..\..\..\dep\lib\win32_debug\"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile="$(OutDir)/mangosscriptR2.pdb"
+				ProgramDatabaseFile="$(OutDir)/InfinityScript.pdb"
 				SubSystem="2"
 				RandomizedBaseAddress="1"
 				DataExecutionPrevention="0"
-				ImportLibrary="$(OutDir)/mangosscriptR2.lib"
+				ImportLibrary="$(OutDir)/InfinityScript.lib"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -150,7 +150,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="mangosd.lib ACE.lib"
-				OutputFile="$(OutDir)/mangosscriptR2.dll"
+				OutputFile="$(OutDir)/InfinityScript.dll"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories="..\..\..\..\win\VC90\mangosd__Win32_Release;..\..\..\..\dep\lib\win32_release\"
 				GenerateDebugInformation="false"
@@ -159,7 +159,7 @@
 				EnableCOMDATFolding="2"
 				RandomizedBaseAddress="1"
 				DataExecutionPrevention="0"
-				ImportLibrary="$(OutDir)/mangosscriptR2.lib"
+				ImportLibrary="$(OutDir)/InfinityScript.lib"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -235,15 +235,15 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="mangosd.lib ACEd.lib"
-				OutputFile="$(OutDir)/mangosscriptR2.dll"
+				OutputFile="$(OutDir)/InfinityScript.dll"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories="..\..\..\..\win\VC90\mangosd__x64_Debug;..\..\..\..\dep\lib\x64_Debug\"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile="$(OutDir)/mangosscriptR2.pdb"
+				ProgramDatabaseFile="$(OutDir)/InfinityScript.pdb"
 				SubSystem="2"
 				RandomizedBaseAddress="1"
 				DataExecutionPrevention="0"
-				ImportLibrary="$(OutDir)/mangosscriptR2.lib"
+				ImportLibrary="$(OutDir)/InfinityScript.lib"
 				TargetMachine="17"
 			/>
 			<Tool
@@ -317,7 +317,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="mangosd.lib ACE.lib"
-				OutputFile="$(OutDir)/mangosscriptR2.dll"
+				OutputFile="$(OutDir)/InfinityScript.dll"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories="..\..\..\..\win\VC90\mangosd__x64_Release;..\..\..\..\dep\lib\x64_release\"
 				GenerateDebugInformation="false"
@@ -326,7 +326,7 @@
 				EnableCOMDATFolding="2"
 				RandomizedBaseAddress="1"
 				DataExecutionPrevention="0"
-				ImportLibrary="$(OutDir)/mangosscriptR2.lib"
+				ImportLibrary="$(OutDir)/InfinityScript.lib"
 				TargetMachine="17"
 			/>
 			<Tool
